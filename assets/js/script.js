@@ -27,7 +27,6 @@ $(document).ready(function () {
     } else {
       $('.camera-img').removeClass("from-left");
       $(".mission-text").removeClass("from-right");
-
     }
   });
 });
