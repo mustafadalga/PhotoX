@@ -15,4 +15,19 @@ $(document).ready(function () {
       $(".nav-menu").removeClass("custom-navbar");
     }
   });
+
+
+
+  $(window).scroll(function () {
+
+    var position = $(this).scrollTop();
+    if (position >= 650) {
+      $('.camera-img').addClass("from-left");
+      $(".mission-text").addClass("from-right");
+    } else {
+      $('.camera-img').removeClass("from-left");
+      $(".mission-text").removeClass("from-right");
+
+    }
+  });
 });
