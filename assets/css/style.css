@@ -2,12 +2,63 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+  /* HEADER */
+
+  header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
+    background:url('../img/header.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+  /* NAVBAR */
+  /* END NAVBAR */
+
+
+
+  /* BANNER */
+.banner
+{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+}
+
+.banner-heading
+{
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
+}
+.banner-par
+{
+  animation-name: anim;
+  animation-duration: 2s;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+   100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+  /* END BANNER */
 
 
 
 
-
-
+  /* END HEADER */
 
 
 
