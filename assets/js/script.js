@@ -5,6 +5,7 @@ $(document).ready(function () {
   });
 
 
+  // Navbar Section
   $(window).scroll(function () {
 
     let position = $(this).scrollTop();
@@ -17,7 +18,7 @@ $(document).ready(function () {
   });
 
 
-
+  // Mission Section
   $(window).scroll(function () {
 
     var position = $(this).scrollTop();
@@ -31,7 +32,7 @@ $(document).ready(function () {
   });
 
 
-
+  // Gallery Section
   $(".gallery-list-item").click(function () {
 
     $(this).addClass("active-item").siblings().removeClass("active-item");
@@ -43,6 +44,23 @@ $(document).ready(function () {
       $(".filter").not("." + value).hide();
       $(".filter").filter("." + value).show(300);
     }
+  });
+
+
+  // Pricing Section
+  $(window).scroll(function () {
+
+    let position = $(this).scrollTop();
+    if (position >= 4300) {
+      $(".card-1").addClass("move-from-left");
+      $(".card-2").addClass("move-from-bottom");
+      $(".card-3").addClass("move-from-right");
+    } else {
+      $(".card-1").removeClass("move-from-left");
+      $(".card-2").removeClass("move-from-bottom");
+      $(".card-3").removeClass("move-from-right");
+    }
+
   });
 
 
