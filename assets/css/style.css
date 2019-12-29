@@ -192,6 +192,7 @@ transition: all .5s;
   background-size: cover;
   box-shadow: 7px 18px 50px #555;
   max-width: 400px;
+
 }
 .card-list-item{
   border-bottom: 1px groove #eee;
@@ -321,7 +322,11 @@ visibility: hidden;
   color:#70aed2;
   text-decoration: none;
 }
-
+.social-media:hover{
+    -webkit-transition: all 0.5s; 
+  transition: all .5s;
+   transform: scale(1.2);
+}
 /* END  FOOTER */
 
 
