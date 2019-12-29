@@ -30,9 +30,9 @@ body {
   .menu-item:hover{
     color:#70aed2;
   }
-  .nav-active{
-      color:#70aed2;
-  }
+.navbar-nav .active {
+   color:#70aed2;
+}
   .line1,.line2,.line3{
     width: 23px;
     height: 3px;
@@ -323,7 +323,6 @@ visibility: hidden;
 }
 
 /* END  FOOTER */
-
 
 
 
