@@ -332,10 +332,22 @@ visibility: hidden;
 
 
 
+/* MEDIA SCREEN*/
 
+@media (max-width:400px){
+  .customers .display-4{
+    font-size: 2.5em;
+  }
+}
+@media (max-width:320px){
+  body{
+    width: 106%;
+  }
+   .mission{
+    padding:1em!important;
+  }
+  .collection .display-4{
+    font-size: 2.5em;
+  }
 
-
-
-
-
-
+/* END MEDIA SCREEN*/
