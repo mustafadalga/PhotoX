@@ -1,11 +1,7 @@
 # PhotoX Template
 
 
-**[Bootstrap 4](https://www.udemy.com/course/bootstrap-4-create-4-real-world-projects-latest-411) eğitimi ile birlikte kodladığım 
-bir fotoğrafçılık şablonu.**
-
-
-
+**[Brad Traversy](https://www.udemy.com/user/brad-traversy)'in hazırladığı [Bootstrap 4](https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects) eğitimi ile birlikte geliştirdiğim bir fotoğrafçılık şablonu.**
 
 
 ### Proje Bağlantı Adresi : [PhotoX](https://mustafadalga.github.io/Front-End-Developments/PhotoX)
